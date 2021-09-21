@@ -10,8 +10,8 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    mumbaiTestnet: {
-      url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
+    testnet: {
+      url: `https://ropsten.infura.io/v3/${projectId}`,
       accounts: [privateKey]
     }
   },
