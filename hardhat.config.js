@@ -16,6 +16,7 @@ require("@nomiclabs/hardhat-waffle");
 // /**
 //  * @type import('hardhat/config').HardhatUserConfig
 //  */
+require("@nomiclabs/hardhat-etherscan");
 const projectId = "3bcf3dc6d78a49a1a69e16f0dc4d8c5d";
 const fs = require("fs");
 const privateKey = fs.readFileSync(".secret").toString()
@@ -30,5 +31,8 @@ module.exports = {
       url: 'https://ropsten.infura.io/v3/${projectId}',
       accounts: [privateKey]
     }
+  },
+  etherscan: {
+      apiKey: "XTCXYZJVXJYHYEEA5B5MU4V3MJDENXC9A2"
   }
 };
