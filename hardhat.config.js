@@ -10,8 +10,8 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    mainnet: {
-      url: `https://mainnet.infura.io/v3/${projectId}`,
+    testnet: {
+      url: `https://polygon-mainnet.infura.io/v3/${projectId}`,
       accounts: [privateKey]
     }
   },
