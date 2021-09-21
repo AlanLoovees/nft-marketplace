@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
